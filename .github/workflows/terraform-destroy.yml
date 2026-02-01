@@ -1,12 +1,13 @@
+
 name: Terraform Destroy
 
-on:
-  workflow_dispatch:
-    inputs:
-      env_path:
-        description: 'Path to the environment directory'
-        required: true
-        type: string
+# on:
+#   workflow_dispatch:
+#     inputs:
+#       env_path:
+#         description: 'Path to the environment directory'
+#         required: true
+#         type: string
 
 permissions:
   id-token: write   # This is required for requesting the JWT
